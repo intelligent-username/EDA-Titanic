@@ -20,13 +20,31 @@ This project explores the infamous Titanic disaster through statistical analysis
 - **Statistical Hypothesis Testing**: Employed to establish significance with p-values
 - **Data Visualization**: Leveraged histograms, scatter plots with logistic curves, and comparative distributions to reveal patterns
 
+## Summary Results
+
+| Variable | Method | Statistic | p-value | Significant (α=0.05) |
+|----------|--------|-----------|---------|----------------------|
+| Embarked | Chi-Squared | 26.47 | 2.68×10^-7 | Yes |
+| Gender (Adults) | Chi-Squared | 202.99 | 4.64×10^-46 | Yes |
+| Age (Adults) | Logistic (coef = 0.0023) | — | 7.41×10^-1 | No |
+| Fare | Logistic (coef = 0.0152) | — | 9.86×10^-12 | Yes |
+
+## Quick Start
+
+```sh
+git clone <your-repo-url>
+cd EDA-Titanic
+# Make sure dependencies are installed (see below)
+jupyter lab analysis.ipynb # Or open in a code editor that supports Jupyter Notebooks
+```
+
+## Python Version
+
+Tested with Python 3.10 (recommended).
+
 ## Data Source
 
 The analysis uses the extended Titanic dataset from [Kaggle](https://www.kaggle.com/datasets/pavlofesenko/titanic-extended).
-
-## Prerequisites
-
-- Python 3.10
 
 ## Installing Dependencies
 

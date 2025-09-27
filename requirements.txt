@@ -1,9 +1,9 @@
-python==3.10
-pandas
-numpy
-matplotlib
-scipy
-statsmodels
 ipython
 jupyterlab
+matplotlib
+numpy
+pandas
+python==3.10
+scipy
 seaborn
+statsmodels
