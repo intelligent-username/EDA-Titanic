@@ -1,4 +1,4 @@
-# Exploratory Data Analysis on the Titanic Dataset
+# EDA on the Titanic Disaster
 
 ![Image of the Titanic](cover.png)
 
@@ -8,10 +8,10 @@ This project explores the infamous Titanic disaster through statistical analysis
 
 ## Key Findings
 
-- **Ticket Class** had the strongest influence on survival, with first-class passengers having significantly higher survival rates (p-value < 10^-12)
-- **Gender** played a crucial role, with women having a much higher chance of survival than men
-- **Boarding Location** showed a statistically significant association with survival rates
-- **Age** among adults was not a significant predictor of survival, though children had higher survival rates overall
+- **Ticket Class**: First-class passengers had dramatically higher survival odds (p-value < $10^{-12}$).
+- **The Women and Children**: Being a woman or a child nearly tripled the chances of survival. Chivalry wasn't dead.
+- **Boarding Location**: showed a statistically significant association with survival rates.
+- **Age**: Among adults, being younger didn't help you survive, although being a child definitely did.
 
 ## Methods Used
 
